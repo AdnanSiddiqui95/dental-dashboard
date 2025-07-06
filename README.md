@@ -1,6 +1,6 @@
 # 🦷 Dental Center Management Dashboard
 
-This is a **frontend-only** Dental Center Management Dashboard developed as part of the **ENTNT Technical Assignment** for the role of **Frontend Developer (React)**.
+This is a **frontend-only** Dental Center Management Dashboard .
 
 > 🔗 **Live Demo**: [Click Here to View the App](https://adnansiddiqui95.github.io/dental-dashboard/#/login)
 
