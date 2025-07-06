@@ -1,12 +1,59 @@
-# React + Vite
+# 🦷 Dental Center Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **frontend-only** Dental Center Management Dashboard developed as part of the **ENTNT Technical Assignment** for the role of **Frontend Developer (React)**.
 
-Currently, two official plugins are available:
+> 🔗 **Live Demo**: [Click Here to View the App](https://adnansiddiqui95.github.io/dental-dashboard/#/login)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 👤 Login Credentials
 
-## Expanding the ESLint configuration
+### 🧑‍⚕️ Admin (Dentist)
+- **Email:** `admin@entnt.in`
+- **Password:** `admin123`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🧑‍⚕️ Patient
+- **Email:** `john@entnt.in`
+- **Password:** `patient123`
+
+---
+
+## 📋 Project Overview
+
+The application manages dental patients, appointments (incidents), and treatment records. It is a **fully simulated** dashboard using `localStorage`, **React functional components**, and **TailwindCSS**.
+
+### 👨‍⚕️ Admin Features
+- View/Add/Edit/Delete Patients
+- Manage Appointments
+- Upload Treatment Files (PDFs, X-rays, etc.)
+- View Treatments
+- See Calendar View of Appointments
+- Dashboard KPIs
+
+### 👩‍⚕️ Patient Features
+- Book Appointments
+- View Own Appointments (History & Upcoming)
+- View Uploaded Files and Treatment Info
+
+---
+
+## 🧪 Tech Stack
+
+- ⚛️ **React** (Functional Components)
+- 🧭 **React Router v6**
+- 💾 **localStorage** for data simulation
+- 🎨 **TailwindCSS** for styling
+- 📦 **Vite** as the build tool
+
+---
+
+## 🗃️ Folder Structure
+
+```bash
+src/
+│
+├── components/        # Shared UI components like Navbar, Layout
+├── context/           # AuthContext for login/session management
+├── data/              # localStorage helpers
+├── pages/             # Route-based pages
+├── routes/            # ProtectedRoute for auth/role check
+├── App.jsx            # Main routing setup
+└── main.jsx           # App root
